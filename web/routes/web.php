@@ -140,3 +140,9 @@ Route::post('/api/webhooks', function (Request $request) {
         return response()->json(['message' => "Got an exception when handling '$topic' webhook"], 500);
     }
 });
+
+//Custom routing
+
+Route::get('/', function (){
+    return view('home');
+});

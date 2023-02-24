@@ -29,7 +29,8 @@ export default function HomePage() {
             >
               <Stack.Item fill>
                 <TextContainer spacing="loose">
-                  <Heading>Nice work on building a Shopify app 🎉</Heading>
+                  <Heading>Am I going to have to do this shit in jsx...?
+                    Yup...</Heading>
                   <p>
                     Your app is ready to explore! It contains everything you
                     need to get started including the{" "}
